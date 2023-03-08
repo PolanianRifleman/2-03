@@ -5,9 +5,10 @@ z = input("Have you had a birthday this year? ")
 def function():
     if z == "yes":
         u = 2023-y
-        print("You were born in",u,"and your name is",a)
+        o = "You were born in "+str(u)+" and your name is "+str(a)
     else:
         i = 2022-y
-        print("You were born in",i,"and your name is",a)
+        o = "You were born in "+str(i)+" and your name is "+str(a)
+    return o
 
-function()
+print(function())
